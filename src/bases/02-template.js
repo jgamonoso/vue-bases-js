@@ -9,7 +9,7 @@ console.log(nombre, apellido)
 
 console.log(nombreCompleto)
 
-console.log(`Resultado: ${1 + 5 }`)
+console.log(`Resultado: ${ 1 + 5 }`)
 
 function getSaludo( nombre) {
     return 'Hola ' + nombre

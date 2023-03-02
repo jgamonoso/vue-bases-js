@@ -14,15 +14,18 @@ const getImage = async () => {
         img.src = url
 
         document.body.append( img )
+        return 'Todo OK'
 
     } catch (error) {
 
-        console.log('error en la peticion', error)
+        // console.log('error en la peticion', error.message)
 
-        throw error
+        throw error.message
 
     }
 }
 
 getImage()
+.then( valor => console.log( 'THEN exitoso', valor))
+.catch( err => console.log( 'error:', err ))
 

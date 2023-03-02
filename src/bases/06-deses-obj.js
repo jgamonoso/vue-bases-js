@@ -17,7 +17,7 @@ const {age, name, codeName, power= 'No tiene poder'} = person
 
 const createHero = (person) => {
 
-    const {name, age, codeName,power} = person
+    const {name, age, codeName, power} = person
 
     return {
         id: 12312314,
